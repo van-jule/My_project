@@ -1,0 +1,151 @@
+.hero {
+  text-align: center;
+}
+
+.title {
+  /* font-family: 'Formular'; */
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.45;
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.validatorName {
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #58667e;
+  margin-bottom: 8px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  content: "";
+  display: inline-block;
+  flex-grow: 1;
+  max-width: 867px;
+  height: 2px;
+  background-color: #ff4d4d;
+}
+
+.left {
+  composes: line;
+  margin-right: 30px;
+}
+
+.right {
+  composes: line;
+  margin-left: 30px;
+}
+
+.hero .heroButton {
+  width: 165px;
+}
+
+.linkWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.logoCircle {
+  display: inline-block;
+  margin-right: 16px;
+  padding: 16px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #000000;
+}
+
+.logoIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.validatorLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 554px;
+  height: 48px;
+  background-color: #eff2f5;
+  border-radius: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+/* .input {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+} */
+
+.copyText {
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.copyButton {
+  display: inline-flex;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.copyButton::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background-color: #e7e7e7;
+  transform: rotate(90deg) translateX(50%);
+}
+
+.copyIcon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.copyIcon svg:hover {
+  cursor: pointer;
+}
+
+.copyIcon path {
+  transition: all 0.3s;
+}
+
+.copyIcon:hover path {
+  cursor: pointer;
+  stroke: green;
+}
+
+.logoButton {
+  margin-left: 16px;
+  width: 73px;
+  height: 32px;
+  background-color: #eff2f5;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 8px;
+}
