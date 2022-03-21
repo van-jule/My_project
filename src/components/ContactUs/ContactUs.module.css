@@ -1,0 +1,85 @@
+.section {
+  margin-bottom: 83px;
+}
+
+.title {
+  /* font-family: 'Formular'; */
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #222222;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.form {
+  min-height: 544px;
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 113px 132px 80px 132px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.formWrap {
+  position: relative;
+}
+
+.formInput {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #ff4d4d;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.nameInput {
+  height: 54px;
+  margin-bottom: 57px;
+}
+
+.emailInput {
+  height: 54px;
+  margin-bottom: 24px;
+}
+
+.textInput {
+  composes: formInput;
+  padding: 30px;
+  resize: none;
+  height: 162px;
+
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #757575;
+}
+
+.formLabel {
+  /* margin-bottom: 4px; */
+  position: absolute;
+  top: -34px;
+  left: 2px;
+  /* font-family: "Formular"; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.21;
+  color: #222222;
+}
+
+.text {
+  max-width: 750px;
+  margin-bottom: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: justify;
+  color: #222222;
+}

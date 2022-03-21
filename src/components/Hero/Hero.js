@@ -45,17 +45,17 @@ const Hero = () => {
           </button>
         </div>
         <ul className={styles.list}>
-          <li>
-            <h3>Every epoch (~12 hours)</h3>
-            <p>Payout Frequency</p>
+          <li className={styles.item}>
+            <h3 className={styles.itemTitle}>Every epoch (~12 hours)</h3>
+            <p className={styles.itemDescr}>Payout Frequency</p>
           </li>
-          <li>
-            <h3>~11%</h3>
-            <p>Expected Reward Rate</p>
+          <li className={styles.centerItem}>
+            <h3 className={styles.itemTitle}>~11%</h3>
+            <p className={styles.itemDescr}>Expected Reward Rate</p>
           </li>
-          <li>
-            <h3>7%</h3>
-            <p>Commission</p>
+          <li className={styles.item}>
+            <h3 className={styles.itemTitle}>7%</h3>
+            <p className={styles.itemDescr}>Commission</p>
           </li>
         </ul>
       </Container>
