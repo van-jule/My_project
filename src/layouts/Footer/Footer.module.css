@@ -1,0 +1,73 @@
+.footer {
+  padding-top: 29px;
+  padding-bottom: 40px;
+  background-color: #ff4d4d;
+  color: #ffffff;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap {
+  width: calc((100% - 200px) / 2);
+}
+
+.footerLogo {
+  fill: #ffffff;
+}
+
+.socials {
+  display: inline-flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.socialsIcon {
+  margin-right: 19px;
+}
+
+.formWrap {
+  display: flex;
+  align-items: flex-end;
+}
+
+.form {
+  position: relative;
+}
+
+.formText {
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.input {
+  width: 419px;
+  height: 48px;
+  padding: 15px 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  border: none;
+
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #757575;
+}
+
+.form .subscribeButton {
+  width: 138px;
+  height: 36px;
+}
+
+.subscribeButton {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+}

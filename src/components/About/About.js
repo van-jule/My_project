@@ -1,8 +1,8 @@
 import React from "react";
+import { ReactSVG } from "react-svg";
 import styles from "./About.module.css";
 import Container from "../Container";
-import { ReactSVG } from "react-svg";
-import MainLogo from "../../assets/images/mainLogoNEAR.svg";
+import MainLogo from "../../assets/images/main-logo-NEAR.svg";
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
             that uses sharing technology to achieve scalability.
           </p>
           <ReactSVG className={styles.mainLogo} src={MainLogo} />
-        </div>{" "}
+        </div>
       </Container>
     </div>
   );

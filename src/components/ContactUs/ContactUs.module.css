@@ -12,6 +12,19 @@
   text-align: center;
 }
 
+.text {
+  max-width: 750px;
+  margin-bottom: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: justify;
+  color: #222222;
+}
+
 .form {
   min-height: 544px;
   max-width: 750px;
@@ -34,6 +47,12 @@
   border: 1px solid #ff4d4d;
   box-sizing: border-box;
   border-radius: 30px;
+  padding: 10px 30px;
+
+  /* font-family: 'Formular'; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .nameInput {
@@ -52,11 +71,8 @@
   resize: none;
   height: 162px;
 
-  /* font-family: 'Formular'; */
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.2;
   color: #757575;
+  margin-bottom: 24px;
 }
 
 .formLabel {
@@ -71,15 +87,7 @@
   color: #222222;
 }
 
-.text {
-  max-width: 750px;
-  margin-bottom: 120px;
+.form .formButton {
   margin-right: auto;
   margin-left: auto;
-  /* font-family: 'Formular'; */
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.21;
-  text-align: justify;
-  color: #222222;
 }

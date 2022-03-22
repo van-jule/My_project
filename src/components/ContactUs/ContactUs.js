@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 import Container from "../Container";
 import styles from "./ContactUs.module.css";
 
@@ -42,6 +43,11 @@ const ContactUs = () => {
             rows="6"
             placeholder="How can I help you ?"
           ></textarea>
+          <Button
+            type="submit"
+            buttonText="Send"
+            className={styles.formButton}
+          />
         </form>
       </Container>
     </div>

@@ -6,23 +6,18 @@
   height: 40px;
   background-color: #fd4f52;
   border: none;
-  color: #ffffff;
   box-shadow: 0px 4px 16px rgba(253, 79, 82, 0.25);
   border-radius: 24px;
-}
 
-/* .button:hover {
-  background-color: #ffffff;
-  color: #fd4f52;
-} */
+  /* font-family: 'Roboto'; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
 
 .icon {
   line-height: 0;
   margin-left: 13px;
   fill: #ffffff;
 }
-
-/* .heroButton {
-  composes: button;
-  width: 1605px;
-} */
