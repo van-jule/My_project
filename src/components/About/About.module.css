@@ -1,6 +1,12 @@
 .section {
   background-color: #f8fafd;
-  margin-bottom: 120px;
+  margin-bottom: 32px;
+}
+
+@media screen (min-width: 768px) {
+  .section {
+    margin-bottom: 120px;
+  }
 }
 
 .title {
@@ -27,8 +33,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 20px;
-  padding: 87px 0;
+  gap: 32px;
+  padding: 32px 0;
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    padding: 87px 0;
+    flex-direction: row;
+  }
 }
 
 .text {
@@ -47,7 +61,7 @@
   margin-right: 80px;
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 768px) {
   .wrap {
     flex-direction: column-reverse;
   }

@@ -10,7 +10,7 @@ const Header = () => {
       <Container>
         <div className={styles.container}>
           <Logo className={styles.headerLogo} />
-          <Button buttonText="Stake now" />
+          <Button buttonText="Stake now" className={styles.headerButton} />
         </div>
       </Container>
     </div>

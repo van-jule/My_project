@@ -9,7 +9,7 @@ import { ReactSVG } from "react-svg";
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
+    <div className={styles.section}>
       <Container>
         <h1 className={styles.title}>
           Earn up to 11% while you sleep <br /> Stake with us
@@ -24,7 +24,7 @@ const Hero = () => {
           >
             <ReactSVG className={styles.logoIcon} src={Icon} />
           </a>
-          <p>NEAR Protocol</p>
+          <p className={styles.logoDescr}>NEAR Protocol</p>
           <button className={styles.logoButton} type="button">
             NEAR
           </button>
@@ -60,7 +60,7 @@ const Hero = () => {
         </ul>
       </Container>
 
-      <div className={styles.wrap}>
+      <div className={styles.buttonWrap}>
         <span className={styles.left}></span>
         <Button
           buttonText="Stake now"
