@@ -13,11 +13,13 @@ const Footer = () => {
     <div className={styles.footer}>
       <Container className={styles.flexbox}>
         <div className={styles.wrap}>
-          <Logo className={styles.footerLogo} />
-          <div className={styles.socials}>
-            <ReactSVG className={styles.socialsIcon} src={Clutch} />
-            <ReactSVG className={styles.socialsIcon} src={LinkedIn} />
-            <ReactSVG className={styles.socialsIcon} src={Twitter} />
+          <div className={styles.subWrap}>
+            <Logo className={styles.footerLogo} />
+            <div className={styles.socials}>
+              <ReactSVG className={styles.socialsIcon} src={Clutch} />
+              <ReactSVG className={styles.socialsIcon} src={LinkedIn} />
+              <ReactSVG className={styles.socialsIcon} src={Twitter} />
+            </div>
           </div>
           <p>&copy; 2021 INC4 BLOCKCHAIN ENGINEERING. ALL RIGHTS RESERVED.</p>
         </div>
