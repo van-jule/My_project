@@ -1,16 +1,32 @@
 .section {
-  text-align: left;
-  margin-bottom: 120px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    margin-bottom: 120px;
+  }
 }
 
 .title {
   /* font-family: 'Formular'; */
   font-weight: 700;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.21;
   color: #222222;
-  text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 28px;
+    margin-bottom: 48px;
+  }
+}
+
+.list {
+  text-align: left;
 }
 
 .item {
@@ -22,7 +38,17 @@
 }
 
 .item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    padding: 16px;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .textWrap {
@@ -37,7 +63,15 @@
   line-height: 1.2;
   align-items: center;
   color: #222222;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+  }
 }
 
 .text {

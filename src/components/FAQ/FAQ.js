@@ -10,7 +10,7 @@ const FAQ = () => {
     <div className={styles.section}>
       <Container>
         <h2 className={styles.title}>Frequently Asked Questions</h2>
-        <ul>
+        <ul className={styles.list}>
           <li className={styles.item}>
             <button type="button" className={styles.button}>
               {/* {<ReactSVG className={styles.plus} src={Plus} />} */}

@@ -1,13 +1,28 @@
 .footer {
-  padding-top: 29px;
-  padding-bottom: 40px;
+  padding-top: 32px;
+  padding-bottom: 41px;
   background-color: #ff4d4d;
   color: #ffffff;
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 29px;
+    padding-bottom: 40px;
+  }
+}
+
 .flexbox {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+  .flexbox {
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 
 .wrap {
@@ -47,6 +62,7 @@
 
 .input {
   width: 100%;
+  min-width: 343px;
   max-width: 419px;
   height: 48px;
   padding: 15px 30px;
