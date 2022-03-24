@@ -102,9 +102,9 @@
   /* width: 100%; */
   /* min-width: 343px;
   max-width: 419px; */
-  width: 300px;
+  width: 280px;
   height: 48px;
-  padding: 15px 125px 15px 15px;
+  padding: 15px 90px 15px 15px;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
@@ -112,7 +112,7 @@
 
   /* font-family: 'Formular'; */
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.21;
   color: #757575;
 }
@@ -120,27 +120,31 @@
 @media screen and (min-width: 375px) {
   .input {
     width: 343px;
+    font-size: 14px;
+    padding: 15px 130px 15px 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .input {
     width: 419px;
-    padding: 15px 135px 15px 30px;
+    padding: 15px 155px 15px 30px;
   }
 }
 
 .form .subscribeButton {
-  width: 100px;
+  width: 80px;
   height: 36px;
   position: absolute;
   right: 6px;
   bottom: 6px;
+  font-size: 12px;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767.99px) {
+@media screen and (min-width: 375px) {
   .form .subscribeButton {
     width: 115px;
+    font-size: 14px;
   }
 }
 
