@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Formular";
+  src: local("Formular"), url("../../assets/fonts/Formular.woff") format("woff"),
+    url("../../assets/fonts/Formular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: local("Formular Bold"), local("Formular-Bold"),
+    url("../../assets/fonts/Formular-Bold.woff") format("woff"),
+    url("../../assets/fonts/Formular-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

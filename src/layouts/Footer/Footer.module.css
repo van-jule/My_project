@@ -14,7 +14,6 @@
 
 .flexbox {
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column-reverse;
 }
 
@@ -83,7 +82,7 @@
 }
 
 .formText {
-  /* font-family: 'Formular'; */
+  font-family: "Formular";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -99,9 +98,6 @@
 }
 
 .input {
-  /* width: 100%; */
-  /* min-width: 343px;
-  max-width: 419px; */
   width: 280px;
   height: 48px;
   padding: 15px 90px 15px 15px;
@@ -110,7 +106,7 @@
   border-radius: 30px;
   border: none;
 
-  /* font-family: 'Formular'; */
+  font-family: "Formular";
   font-weight: 400;
   font-size: 12px;
   line-height: 1.21;

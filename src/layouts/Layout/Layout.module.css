@@ -1,0 +1,16 @@
+.layout {
+  background-image: url(../../assets/images/bg_left.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+}
+
+@media screen and (min-width: 768px) {
+  .layout {
+    background-image: url(../../assets/images/bg_left.png),
+      url(../../assets/images/bg_right.png);
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-position-y: top;
+  }
+}
